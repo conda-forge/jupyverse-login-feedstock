@@ -1,7 +1,7 @@
 schema_version: 1
 
 context:
-  version: "0.1.0"
+  version: "0.1.1"
 
 package:
   name: jupyverse-login
@@ -9,7 +9,7 @@ package:
 
 source:
   - url: https://pypi.org/packages/source/j/jupyverse-login/jupyverse_login-${{ version }}.tar.gz
-    sha256: 8fd4547a8fa4a111c42c7a7ee4027c42164959e58557292effd4557f1367ba5b
+    sha256: f44ab613f56eb4fddcd59176736e4b81016b099ba3877eb14b87be4052e9ec4c
 
 build:
   noarch: python
